@@ -1,0 +1,173 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class=""></div>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -------------------navbar--------------------- -->
+
+    <nav class="navbar d-flex pt-5 align-items-center justify-content-center navbar-expand-lg navbar-light w-100">
+        <div class="container d-flex justify-content-around">
+
+            <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                <img src="images/logo@2x.png" alt="" class="w-25 mr-1 ">
+                <div class="main-color ">
+                    <span class="site-title logo-size">Weather</span>
+                    <h6 class="logoD-size">tagline goes here</h6>
+                </div>
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link mx-2 px-4 py-2 rounded-pill text-white text-decoration-none"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 px-4 py-2 rounded-pill text-white text-decoration-none"
+                            href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 px-4 py-2 rounded-pill text-white text-decoration-none" href="#">Live
+                            cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 px-4 py-2 rounded-pill text-white text-decoration-none"
+                            href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 px-4 py-2 rounded-pill text-white text-decoration-none"
+                            href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- --------------------search-------------------- -->
+
+    <div class="searchZone pb-5">
+        <div class="container py-5 my-5">
+            <div class="form position-relative py-5">
+                <input class="form-control rounded-pill form-input" type="text" placeholder="Find your location..."
+                    id="searchInput">
+                <button class="btn btn-form text-white rounded-pill px-5 py-3 position-absolute"
+                    id="formBtn">Find</button>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- --------------------content------------------- -->
+
+    <div class="container">
+        <div class="row rounded-xl" id="weatherCont">
+
+            <div class="col-lg-4">
+                <div id="todayWeather">
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 bg-darker">
+                <div id="secondDay">
+                   
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div id="thirdDay">
+
+                </div>
+               
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- ------------------footer---------------------- -->
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row align-items-start justify-content-between">
+                <div class="col-md-8">
+                    <div class="form position-relative pb-3">
+                        <input class="form-control rounded-pill contact-input py-2" type="text"
+                            placeholder="Enter your email to subscribe...." id="search">
+                        <button class="btn btn-contact text-white rounded-pill px-3 position-absolute"
+                            id="contactBtn">Subscribe</button>
+
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="social-icons">
+                        <a class="mx-1" href="#"><i class="p-3 rounded-circle text-center fab fa-facebook-f"></i></a>
+                        <a class="mx-1" href="#"><i class="p-3 rounded-circle text-center fab fa-twitter"></i></a>
+                        <a class="mx-1" href="#"><i class="p-3 rounded-circle text-center fab fa-google"></i></a>
+                        <a class="mx-1" href="#"><i class="p-3 rounded-circle text-center fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="fa-sm ml-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
